@@ -1,0 +1,9 @@
+torch>=2.1
+torch-geometric>=2.3
+numpy
+scipy
+matplotlib
+typer[all]>=0.12
+tqdm
+ltu-ili @ git+https://github.com/maho3/ltu-ili.git#egg=ltu-ili
+pwf-reconstruction @ git+https://github.com/arsenefer/PWF_reconstruction.git#egg=pwf-reconstruction

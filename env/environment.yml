@@ -1,0 +1,9 @@
+name: sbi-uhecr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch::pytorch
+  - pip
+  - pip:
+      - -r requirements.txt

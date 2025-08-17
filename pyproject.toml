@@ -1,0 +1,45 @@
+[build-system]
+requires      = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# -------------------------------------------------------------
+# PEP 621 project metadata
+# -------------------------------------------------------------
+[project]
+name            = "sbi_uhecr_radio_recon"
+dynamic         = ["version"]                      # version read from code
+description     = "Modularised UHECR radio reconstruction pipeline."
+authors         = [{ name = "Oscar Macias", email = "macias@sfsu.edu" }]
+requires-python = ">=3.10"
+
+dependencies = [
+  "torch>=2.1",
+  "torch-geometric>=2.3",
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "typer[all]>=0.12",
+  "tqdm",
+  # external research deps
+  "ltu-ili @ git+https://github.com/maho3/ltu-ili.git#egg=ltu-ili",
+  "pwf-reconstruction @ git+https://github.com/arsenefer/PWF_reconstruction.git#egg=pwf-reconstruction",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff", "pre-commit"]
+
+# -------------------------------------------------------------
+# src-layout: tell Setuptools that packages live under src/
+# -------------------------------------------------------------
+[tool.setuptools]
+package-dir = { "" = "src" }               # ← only this mapping is needed
+
+[tool.setuptools.packages.find]
+where   = ["src"]                          # scan inside src/
+exclude = ["notebooks*", "env*"]           # keep non-library dirs out of wheels
+
+# -------------------------------------------------------------
+# Dynamic version comes from src/sbi_uhecr_radio_recon/__init__.py
+# -------------------------------------------------------------
+[tool.setuptools.dynamic]
+version = { attr = "sbi_uhecr_radio_recon.__version__" }
