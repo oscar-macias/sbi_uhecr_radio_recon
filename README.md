@@ -9,4 +9,4 @@ conda activate ili-torch
 ### make sure pip is recent
 pip install --upgrade pip
 
-pip install -e "git+https://github.com/<your-org>/sbi_uhecr_radio_recon.git#egg=sbi-uhecr-radio-recon"
+pip install -e "git+https://github.com/oscar-macias/sbi_uhecr_radio_recon.git#egg=sbi-uhecr-radio-recon"
