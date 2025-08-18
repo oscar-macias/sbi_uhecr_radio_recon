@@ -22,7 +22,7 @@ identifiers:
 # Redirect default citations to the article; update as it progresses
 preferred-citation:
   type: article
-  title: "Your ApJ article title"
+  title: "Simulation-Based Inference for Direction Reconstruction of Ultra-High-Energy Cosmic Rays"
   authors:
     - family-names: Macias
       given-names: Oscar
