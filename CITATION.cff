@@ -12,7 +12,7 @@ repository-code: "https://github.com/oscar-macias/sbi_uhecr_radio_recon"
 # Keep both the Zenodo software DOI (when minted) and arXiv info
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.XXXXXXX            # software DOI (after Zenodo release)
+    value: 10.5281/zenodo.16895985            # software DOI (after Zenodo release)
   - type: url
     value: "https://arxiv.org/abs/2508.xxxxx" # arXiv URL 
     description: "Companion article (arXiv)"
