@@ -4,7 +4,7 @@ This release delivers a compact, reproducible codebase for UHECR radio direction
 
 # Installation
 
-## 1.  Create & activate the research environment
+## 1.  Create & activate the conda environment
 ```bash
 conda create -n ili-torch python=3.10
 conda activate ili-torch
