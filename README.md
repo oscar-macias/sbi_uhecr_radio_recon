@@ -12,9 +12,11 @@ conda activate ili-torch
 ## 2. Install the pipeline and all dependencies
 > make sure pip is recent
 
+```bash
 pip install --upgrade pip
 
 pip install -e "git+https://github.com/oscar-macias/sbi_uhecr_radio_recon.git#egg=sbi-uhecr-radio-recon"
+```
 
 ## 3. How to cite this work?
 Please cite the companion article (arXiv:2508.xxxxx / PRD DOI when available). A CITATION.cff is included.
