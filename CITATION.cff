@@ -14,7 +14,7 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.XXXXXXX            # software DOI (after Zenodo release)
   - type: url
-    value: "https://arxiv.org/abs/25MM.xxxxx" # arXiv URL (now)
+    value: "https://arxiv.org/abs/2508.xxxxx" # arXiv URL 
     description: "Companion article (arXiv)"
   - type: other
     value: "arXiv:2508.xxxxx"                 # arXiv identifier (now)
@@ -27,7 +27,7 @@ preferred-citation:
     - family-names: Macias
       given-names: Oscar
     # ... add coauthors here ...
-  journal: "Physical Review D"        # submitted
+  journal: "Physical Review D (submitted)"        # submitted
   year: 2025                                   # adjust
   status: preprint                             # later: in-press / advance-online
   identifiers:
