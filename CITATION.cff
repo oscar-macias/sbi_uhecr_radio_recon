@@ -1,11 +1,40 @@
 cff-version: 1.2.0
 title: "sbi_uhecr_radio_recon"
 message: "If you use this software, please cite it as below."
+type: software
+version: v0.1.0
+date-released: 2025-08-18
 authors:
   - family-names: Macias
     given-names: Oscar
-    affiliation: San Francisco State University
-    email: macias@sfsu.edu
-version: 0.1.0
-date-released: 2025-08-17
 repository-code: "https://github.com/oscar-macias/sbi_uhecr_radio_recon"
+
+# Keep both the Zenodo software DOI (when minted) and arXiv info
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.XXXXXXX            # software DOI (after Zenodo release)
+  - type: url
+    value: "https://arxiv.org/abs/25MM.xxxxx" # arXiv URL (now)
+    description: "Companion article (arXiv)"
+  - type: other
+    value: "arXiv:2508.xxxxx"                 # arXiv identifier (now)
+
+# Redirect default citations to the article; update as it progresses
+preferred-citation:
+  type: article
+  title: "Your ApJ article title"
+  authors:
+    - family-names: Macias
+      given-names: Oscar
+    # ... add coauthors here ...
+  journal: "Physical Review D"        # submitted
+  year: 2025                                   # adjust
+  status: preprint                             # later: in-press / advance-online
+  identifiers:
+    - type: other
+      value: "arXiv:2508.xxxxx"                # arXiv id (now)
+    - type: url
+      value: "https://arxiv.org/abs/2508.xxxxx"
+    # later, after acceptance:
+    # - type: doi
+    #   value: "10.3847/xxxxx"                 # PRD article DOI
