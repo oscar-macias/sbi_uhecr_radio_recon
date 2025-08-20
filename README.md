@@ -20,7 +20,7 @@ pip install -e "git+https://github.com/oscar-macias/sbi_uhecr_radio_recon.git#eg
 
 ## 3. How to cite this work?
 If you use this package, please cite the companion article:
-- **Macias et al. (2025) arXiv:2508.xxxxx**
+- **Macias et al. (2025), arXiv:2508.xxxxx**
 
 In addition, please consider citing the packages on which this work builds:
 
