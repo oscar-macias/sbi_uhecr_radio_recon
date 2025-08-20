@@ -24,8 +24,6 @@ If you use this package, please cite the companion article:
 
 In addition, please consider citing the packages on which this work builds:
 
-LtU-ILI:
 - Ho et al. (2024), ``LtU-ILI: An All-in-One Framework for Implicit Inference in Astrophysics and Cosmology'', https://arxiv.org/abs/2402.05137
 
-PWF:
 - Ferriere et al. (2024), ``Analytical planar wavefront reconstruction and error estimates for radio detection of extensive air showers'', https://arxiv.org/abs/2405.09377
