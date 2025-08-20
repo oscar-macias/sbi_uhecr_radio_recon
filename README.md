@@ -19,9 +19,10 @@ pip install -e "git+https://github.com/oscar-macias/sbi_uhecr_radio_recon.git#eg
 ```
 
 ## 3. How to cite this work?
-Please cite the companion article (arXiv:2508.xxxxx / PRD DOI when available). A CITATION.cff is included.
+If you use this package, please cite the companion article:
+- Macias et al. (2025) arXiv:2508.xxxxx
 
-In addition, please also cite the packages on which this work builds:
+In addition, please consider citing the packages on which this work builds:
 
 LtU-ILI:
 - Ho et al. (2024), ``LtU-ILI: An All-in-One Framework for Implicit Inference in Astrophysics and Cosmology'', https://arxiv.org/abs/2402.05137
