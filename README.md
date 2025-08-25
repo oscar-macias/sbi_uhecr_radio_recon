@@ -1,6 +1,6 @@
 # Summary
 
-This release delivers a compact, reproducible codebase for UHECR radio direction reconstruction using simulation-based inference with normalizing-flow posteriors. It adds a temperature scaling wrapper for calibrated posteriors, training/diagnostics utilities, and example notebooks with mock data. See the companion article (arXiv:2508.xxxxx) for details.
+This release delivers a compact, reproducible codebase for UHECR radio direction reconstruction using simulation-based inference with normalizing-flow posteriors. It adds a temperature scaling wrapper for calibrated posteriors, training/diagnostics utilities, and example notebooks with mock data. See the companion article (arXiv:2508.15991) for details.
 
 # Installation
 
